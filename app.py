@@ -7,7 +7,7 @@ import google.generativeai as genai
 from google.generativeai import types
 
 avatars = {
-    "assistant": r"c:\Users\sawhn\Downloads\WhatsApp Image 2025-06-30 at 12.19.13 AM.jpeg",
+    "assistant": r"c:\Users\sawhn\Downloads\360_F_808373133_lrCrFLLTXF0A2WQK7QKMCNAzKCjX7kvb.jpg",
     "user": r"c:\Users\sawhn\Downloads\pngtree-man-avatar-isolated-png-image_13022170.png"
 }
 
