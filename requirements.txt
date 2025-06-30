@@ -1,0 +1,5 @@
+google-genai
+pillow
+ipython
+streamlit
+python-dotenv
