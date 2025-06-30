@@ -7,8 +7,8 @@ import google.generativeai as genai
 from google.generativeai import types
 
 avatars = {
-    "assistant": r"c:\Users\sawhn\Downloads\360_F_808373133_lrCrFLLTXF0A2WQK7QKMCNAzKCjX7kvb.jpg",
-    "user": r"c:\Users\sawhn\Downloads\pngtree-man-avatar-isolated-png-image_13022170.png"
+    "assistant":"360_F_808373133_lrCrFLLTXF0A2WQK7QKMCNAzKCjX7kvb.jpg",
+    "user":"pngtree-man-avatar-isolated-png-image_13022170.png"
 }
 
 def clear_chat_history():
@@ -68,7 +68,7 @@ def main():
 
 
     with st.sidebar:
-        st.image(r"c:\Users\sawhn\Downloads\istockphoto-1445426863-612x612.jpg")
+        st.image("istockphoto-1445426863-612x612.jpg")
         st.button("Clear chat history", on_click=clear_chat_history)
 
         uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
